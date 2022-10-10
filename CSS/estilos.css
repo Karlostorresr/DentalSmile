@@ -1,0 +1,25 @@
+body{
+    margin: 0px;
+}
+
+.footer {
+    background-color: #2a2d7a;
+    color: aliceblue;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 1rem;
+    padding: 1rem;
+    box-shadow: 0px -4px 7px #000;
+}
+
+.footer img {
+    height: 50px;
+    width: 50px;
+}
+
+.footerinfo {
+    display: flex;
+    flex-direction: column;
+}
