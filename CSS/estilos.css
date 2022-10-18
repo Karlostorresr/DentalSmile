@@ -39,6 +39,76 @@ body{
     display: inline-flex;
 }
 
+.text_center {
+    text-align: center;
+}
+
+.flex_column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .5rem;
+}
+
+footer {
+    background-color: #212379;
+    color: aliceblue;
+    padding: 2rem 0 1rem;
+    box-shadow: 0px -4px 7px #000;
+}
+
+.footer_container{
+    margin: 0 4.375rem;
+}
+
+.footer_head {
+    border-bottom: solid 2px;
+    margin: 0 2rem .5rem;
+    padding: 1rem 1rem 0;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    font-size: clamp(2rem, 1rem + 3vw, 4rem);
+    text-shadow: 3px 2px #000;
+}
+
+.footer_head p {
+    margin: 1rem;
+}
+
+.footer_main {
+    font-size: clamp(.7rem, .5rem + 1vw, 1rem);
+}
+
+.list > ul {
+    list-style: none;
+    padding-inline-start: 0;
+    line-height: 2rem;
+    font-family: 'BIZ UDPGothic', sans-serif;
+}
+
+ul > h2 {
+    font-family: 'Roboto Slab', serif;
+}
+
+li > i {
+    margin-right: .8rem;
+}
+
+@media (min-width: 712px) {
+    .footer_main {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+        justify-items: center;
+    }
+}
+
+@media (max-width: 711px) {
+    .footer_head {
+        display: none;
+    }
+}
+
+
 @media screen and (max-width :530px) {
     .Rcontainer a{
         padding:4px;
