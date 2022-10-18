@@ -2,6 +2,43 @@ body{
     margin: 0px;
 }
 
+.dSLogo{
+    height: 50px;
+    width: 80px;
+}
+
+.avatar{
+    border-radius: 50%;
+    width: 35px;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #2a2d7a;
+    color:aliceblue;
+    align-items: center;
+}
+
+.nav-link{
+    display: flex;
+    text-decoration: none;
+    color: aliceblue;
+    align-items: center;
+}
+
+.nav-link:hover{
+    color: greenyellow;
+}
+
+.Rcontainer  {
+    display: inline-flex;
+}
+
+.headLinkscontainer{
+    display: inline-flex;
+}
+
 .text_center {
     text-align: center;
 }
@@ -69,4 +106,21 @@ li > i {
     .footer_head {
         display: none;
     }
+}
+
+@media screen and (max-width :530px) {
+    .Rcontainer a{
+        padding:4px;
+    }
+    .headLinkscontainer a{
+        padding:4px;
+    }  
+    
+}
+
+@media screen and (max-width :410px) {
+    /*#userName{
+        display: none;
+    }*/
+    
 }
